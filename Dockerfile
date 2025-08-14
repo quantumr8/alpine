@@ -1,3 +1,3 @@
 FROM alpine:latest
 
-CMD apk add docker git bash
+RUN apk add docker git bash
