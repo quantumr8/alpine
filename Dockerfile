@@ -1,3 +1,5 @@
 FROM alpine:latest
 
-RUN apk add docker git bash
+RUN apk add --no-cache docker git bash
+
+CMD ["sh"]
